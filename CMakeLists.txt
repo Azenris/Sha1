@@ -9,7 +9,7 @@ project(
 	LANGUAGES CXX
 )
 
-add_executable( ${APP_NAME} src/main.cpp )
+add_executable( ${APP_NAME} src/main.cpp src/sha1.cpp )
 
 option( BUILD_CRT_STATIC "CRT static link." ON )
 
